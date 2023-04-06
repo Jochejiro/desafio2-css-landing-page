@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: #0b5ba1;
+    height: 4em;
+    padding: 1.5em;
+    font-size: 1.2em;
+    background-image: url("../imgs/backgroundheader.jpg");
+    background-size: 100%;
+    color: white;
+}
+
+.header h1,
+h3 {
+    font-weight: 300;
+}
+
+.main table {
+    width: 80%;
+    margin: 2em auto;
+}
+.main table th {
+    color: #0b5ba1;
+    text-align: center;
+    padding: 1em;
+    font-size: 1.5em;
+}
+
+.main table td {
+    padding: 1em;
+}
+
+.card-imagen {
+    height: 100%;
+    text-align: right;
+}
+
+.card-descripcion {
+    width: 80%;
+}
+
+.card-descripcion p {
+    text-align: justify;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.card-descripcion li {
+    margin-left: 2em;
+}
+
+.footer {
+    height: 4em;
+    line-height: 3em;
+    background-color: #292929;
+    text-align: center;
+}
+
+.footer span {
+    color: white;
+}
